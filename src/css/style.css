@@ -1,0 +1,106 @@
+body{
+    background-color: var(--Pale-blue);
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container .card {
+    max-width: 450px;
+    border-radius: 20px;
+    background-color: var(--Very-pale-blue);
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.container .card .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.container .card  .text{
+    display: flex;
+    text-align: center;
+    align-self: center; 
+    align-content: center;
+    font-weight: 500;
+    margin: 0px 50px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.container .value{
+    background-color: var(--Desaturated-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+    border-radius: 20px;
+   height: 100px;
+    
+    
+}
+
+.container .value .info{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+   margin-bottom: 15px;
+   margin-left: 5px;
+}
+
+.container .value .change{
+    margin-left: 85px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ 
+
+.value .music{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-right: 10px;
+    max-width: 45px;
+     
+}
+
+.container .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.container .register .pay{
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    padding: 15px 100px;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.container .register .cancel{
+    font-weight: 900;
+    padding: 30px;
+}
+
