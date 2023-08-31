@@ -100,4 +100,11 @@ img{
     font-weight: 900;
     padding: 30px;
 }
+
+.container .register :hover{
+    background-color: var(--Dark-blue);
+    color:var(--Very-pale-blue);
+    padding: 15px 100px;
+    border-radius: 7px;
+}
 }
