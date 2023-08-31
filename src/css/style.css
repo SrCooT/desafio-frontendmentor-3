@@ -99,8 +99,16 @@ img{
     border-radius: 7px;
     font-weight: 900;
 }
+
+.container .register :hover{
+    background-color: var(--Dark-blue);
+    color:var(--Very-pale-blue);
+    padding: 15px 100px;
+    border-radius: 7px;
+}
 .container .register .cancel{
     font-weight: 900;
     padding: 30px;
+    
 }
 
